@@ -6,7 +6,7 @@
 		overflow-y:auto;
 		 
 	}
- [header*="col-"] {
+ [nav="col-"] {
 		   width: 100%;
 		 }
 
