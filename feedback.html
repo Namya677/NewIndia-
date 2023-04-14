@@ -1,0 +1,63 @@
+<html>
+<head>
+  <title> Suggestions and feedback</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    .ButtonSubmit{
+      background-color: #b3361d;
+      color : white;
+      border: none;
+      height : 36px;
+      width : 120px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .SuggestionBar{
+      width: 950px;
+      height: 200px;
+    }
+    .FeedbackBar{
+      width: 950px;
+      height: 200px;
+    }
+  </style>
+
+</head>
+<body class="mainContent">
+    <header>
+         <h2> Suggestions and Feedback</h2>
+    </header>
+    <main>
+      <form action="mailto:namyaaa66@gmail.com" method="post" enctype="text/plain">
+          <br>
+          <div>
+            Name:</br><br> <input type="text" name="Name" id="name">
+          </div>
+          <div>
+            <br>
+            Email: </br><br><input type="email" name="Email " id="email">
+          </div>
+          <br>
+          <div>
+          Input Suggestions: </br><br><input type ="text" name="Suggestions " id="suggestions"class = "SuggestionBar">
+          </div>
+          <br>
+          <div>
+          Rate your experience <input type ="number" name="My Expereince" id="myexperience">
+          </div>
+          <br>
+          <div>
+          Feedback: </br><br> <input type = "text" name="Feedback" id="feedback" class = "FeedbackBar">
+          </div>
+          <br>
+          <div>
+          <input type="submit" value="Submit" id="submit" class = "ButtonSubmit">
+          </div>
+        </form>
+    </main>
+
+</body>
+</html>

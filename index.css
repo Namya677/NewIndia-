@@ -1,0 +1,50 @@
+	body {
+		margin: 0;
+		font-family: "Times New Roman", Times, serif;
+		background-color: #f2f3f5;
+		border: 3px solid #000000;
+		overflow-y:auto;
+	}
+
+	nav {
+	  	 background-image: url("HeaderImage.jpg");
+			color: white;
+	  	font-size: 18px;
+	  	text-align: center;
+	  	padding: 20px;
+	  	height: 90px;
+/*    	position: fixed;
+		width: 100%;
+    	z-index: 10;*/
+	}
+
+	.navItem{
+		padding: 20px;
+		margin:  10px;
+		text-decoration: none;
+		font-family: Lucida, Cursive;
+		cursor: pointer;
+	}
+
+	header{
+	 background-color: #cbddf7;
+	  text-align: center;
+	  padding: 20px;
+	  height: 50px;
+	  border: 1px solid black;
+	}
+
+
+	footer {
+      background-color: #f2f2f2;
+      padding: 10px;
+      margin:  5px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .mainContent{
+        margin: 10px;
+        padding: 10px;
+     }
